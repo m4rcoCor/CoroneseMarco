@@ -11,7 +11,7 @@
  * <li>CoroneseMet
  * </ul>
  * 
- * @version 1.0 
+ * @version 2.0 
  * @author Marco Coronese 
  * 
  *
@@ -35,7 +35,7 @@ public class CoroneseMarcoClass {
 		int i;
 		fatt=1;
 		for(i=1; i<=n; i++) {
-			fatt=fatt+i;
+			fatt=fatt*i;     //errato --> fatt=fatt+i
 		}
 		return fatt;
 	}
